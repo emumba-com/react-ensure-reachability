@@ -1,0 +1,34 @@
+{
+  "name": "react-ensure-reachability",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
+  },
+  "author": "Muhammad Ali",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.7.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-watch": "^3.1.2",
+    "isomorphic-fetch": "^2.2.1",
+    "polished": "^1.7.0",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-redux": "^5.0.6",
+    "styled-components": "^2.1.2"
+  }
+}
